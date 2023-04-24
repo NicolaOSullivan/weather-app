@@ -1,4 +1,45 @@
+.container {
+  max-width: 100%;
+}
 h1 {
-  color: blue;
   text-align: center;
+  padding: 10px;
+  color: #113f67;
+}
+h2,
+h3 {
+  text-align: center;
+  padding: 5px;
+  color: #38598b;
+}
+h2 {
+  padding-top: 10px;
+}
+p {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.country-selection {
+  padding: 10px;
+  background-color: #e7eaf6;
+}
+.btn-primary {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.weather-updates {
+  text-align: center;
+  font-size: 10px;
+}
+.made-by {
+  opacity: 50%;
+  text-align: center;
+  padding: 10px;
 }
